@@ -40,7 +40,7 @@
         </script>
       </amp-state>
 
-      <amp-img on       = "tap:AMP.setState({ servicioSeleccionado: 'instalacion' })" src="assets/images/iluminacion-shaftelectrico-870x689.png" 
+      <amp-img on       = "tap:AMP.setState({ serviciosId: 'instalacion' })" src="assets/images/iluminacion-shaftelectrico-870x689.png" 
 	       width    = "60"
 	       height   = "40"
 	       role     = "button"
@@ -48,11 +48,13 @@
       </amp-img>  
 
       <amp-img width="300" height="200" src=" "
-        [src]="servicios[servicioSeleccionado].imageUrl">
+        [src]="servicios[serviciosId].imageUrl">
       </amp-img>
 
-      <button on="tap:AMP.setState({servicioSeleccionado: 'reparacion'})">Elegir Reparación</button>	    
-      <div [text]="servicioSeleccionado">null</div>   
+      <button on="tap:AMP.setState({serviciosId: 'reparacion'})">Elegir Reparación</button>	    
+
+      <div [text]="serviciosId">null</div>   
+
     </div>
     
     <amp-list class='m1' width = 'auto' height='2224' layout='fixed-height' src='https://alectrico.herokuapp.com/electrico/proyectos.json'>
