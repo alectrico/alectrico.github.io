@@ -27,6 +27,7 @@
       <amp-state id="servicios">
         <script type="application/json">
           {
+	    "id": "instalacion,
             "instalacion": {
               "imageUrl": "assets/images/iluminacion-shaftelectric(o-870x689.png" 
             },
@@ -39,6 +40,7 @@
           }
         </script>
       </amp-state>
+      
       <div [text]="actualServicio + ' seleccionado'">Seleccione un servicio</div>
       <amp-img on       = "tap:AMP.setState({ actualServicio: 'instalacion' })" src="assets/images/iluminacion-shaftelectrico-870x689.png" 
 	       width    = "60"
