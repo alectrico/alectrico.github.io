@@ -41,7 +41,7 @@
         </script>
       </amp-state>
 	    
-      <amp-img on       = "tap:AMP.setState({ id:0}" src=servicios[0].imageUrl
+      <amp-img on       = "tap:AMP.setState({ id:0}" src="servicios[0].imageUrl"
 	       width    = "60"
 	       height   = "40"
 	       role     = "button"
@@ -71,10 +71,10 @@
 	    role="button"
 	    tabindex="0">
 	</amp-img>
-	<div [text]="products[productId] + ' available'">Please select a product</div>
+	<div [text]="products[productId] + ' available'">Seleccione un servicio</div>
     </div>
     
-    <amp-list class='m1' height='2224' layout='fixed-height' src='https://alectrico.herokuapp.com/electrico/proyectos.json'>
+    <amp-list class='m1' width = 'auto' height='2224' layout='fixed-height' src='https://alectrico.herokuapp.com/electrico/proyectos.json'>
       <template type='amp-mustache'>
         <div class='url-entry'>
           <a href='{{url}}'>
