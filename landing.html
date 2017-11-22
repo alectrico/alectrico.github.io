@@ -23,7 +23,7 @@
     </style>
   </head>
   <body>
-	  <div class= "p1" >
+    <div class= "p1" >
       <amp-state id="servicios">
         <script type="application/json">
           {
@@ -40,6 +40,13 @@
           }
         </script>
       </amp-state>
+	    
+      <amp-img on       = "tap:AMP.setState({ id:0}" src=servicios[0].imageUrl
+	       width    = "60"
+	       height   = "40"
+	       role     = "button"
+	       tabindex = "0">
+      </amp-img>
     </div>  
     
     <div class="p1">
