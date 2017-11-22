@@ -41,7 +41,7 @@
         </script>
       </amp-state>
 
-      <amp-img on       = "tap:AMP.setState({ servicioSeleccionado: 'reparacion' })" src="assets/images/iluminacion-shaftelectrico-870x689.png" 
+      <amp-img on       = "tap:AMP.setState({ servicioSeleccionado: 'instalacion' })" src="assets/images/iluminacion-shaftelectrico-870x689.png" 
 	       width    = "60"
 	       height   = "40"
 	       role     = "button"
@@ -52,7 +52,7 @@
         [src]="servicios[servicioSeleccionado].imageUrl">
       </amp-img>
 
-      <button on="tap:AMP.setState({servicioSeleccionado: 'instalacion'})">Elegir Reparación</button>	    
+      <button on="tap:AMP.setState({servicioSeleccionado: 'reparacion'})">Elegir Reparación</button>	    
       <div [text]="servicioSeleccionado">null</div>   
     </div>
     
