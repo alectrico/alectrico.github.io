@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Aléctrico-Adwords-Alectrico.com-Alectrico.github.io-clone",
-    "currentPage": "index.html",
+    "name": "Aléctrico-Providencia-Ñuñoa",
+    "currentPage": "ñuñoa.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 313,
     "versionPublish": "4.3.5",
@@ -43,7 +43,7 @@
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "true",
-    "google-analytics": "<script src=\"//cdn.jsdelivr.net/g/es6-promise@1.0.0\"></script>\r\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/jsonld/0.4.12/jsonld.min.js\"></script>\r\n\r\n<script async src=\"https://alectrico.herokuapp.com/electrico/api_proyectos/27.json\">\r\n</script>\r\n\r\n<script type = \"application/ld+json\" > \r\n{\"@context\":\"http://schema.org\",\"@type\":\"http://schema.org/Service\",\"name\":\"Electricista a Domicilio\",\"offers\":{\"@type\":\"Offer\",\"price\":\"15000\",\"priceCurrency\":\"CLP\"},\"areaServed\":{\"@type\":\"Place\",\"address\":\"Providencia\"},\"isRelatedTo\":{\"@type\":\"Product\",\"gtin14\":\"00660042999993\",\"@id\":\"http://www.alectrico.cl/id/00660042999993\",\"image\":\"http://www.alectrico.cl/servicios/00660042999993/code_image\"}};\r\n</script>\r\n\r\n<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-86536511-2\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-86536511-2');\r\n</script>\r\n\r\n\r\n\r\n<!-- Global site tag (gtag.js) - Google AdWords: 1014456966 -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-1014456966\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'AW-1014456966');\r\n</script>\r\n\r\n\r\n",
+    "google-analytics": "<script src=\"//cdn.jsdelivr.net/g/es6-promise@1.0.0\"></script>\r\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/jsonld/0.4.12/jsonld.min.js\"></script>\r\n\r\n<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-86536511-2\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-86536511-2');\r\n</script>\r\n\r\n\r\n\r\n<!-- Global site tag (gtag.js) - Google AdWords: 1014456966 -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-1014456966\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'AW-1014456966');\r\n</script>\r\n\r\n\r\n",
     "cookiesAlert": "Usamos cookies para mejorar su experiencia de usuario en nuestro sitio web. Lea nuestra política de privacidad de los datos <a href='privacidad.html'>política de privacidad</a>."
   },
   "pages": {
